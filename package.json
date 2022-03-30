@@ -1,0 +1,47 @@
+{
+  "name": "django",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./ss/frontend/src/index.js --output-path ./ss/frontend/static/frontend/",
+    "build": "webpack --mode production ./ss/frontend/src/index.js --output-path ./ss/frontend/static/frontend/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "file-saver": "^2.0.5",
+    "frappe-gantt": "^0.5.0",
+    "jszip": "^3.6.0",
+    "momentjs": "^2.0.0",
+    "multiselect-react-dropdown": "^1.6.11",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-export-excel": "^0.5.3",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^4.3.1",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "snapsvg": "^0.5.1",
+    "xlsx": "^0.17.0"
+  }
+}

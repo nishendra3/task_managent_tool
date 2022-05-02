@@ -1,7 +1,5 @@
-# task_managent_tool
-ReactJS &amp; Django based dashboard for task management and progress tracking
-
-Created as a response to address supply-chain shortages during Covid-19 lockdowns
+# Task Management Tool
+ReactJS &amp; Django based dashboard for task management and progress tracking. The frontend is built using `react`, which uses `django-react-framework` API to interact with the django based backend server. The application is hosted locally , and was created as a response to address supply-chain shortages during Covid-19 lockdowns. The primary use of application was to track the on-boarding process for new suppliers.
 
 # Setup
 - create a virutal env &amp; install requirements
